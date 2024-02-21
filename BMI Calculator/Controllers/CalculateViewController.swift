@@ -18,7 +18,7 @@ class CalculateViewController: UIViewController {
     @IBOutlet weak var weightLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
     }
     @IBAction func heightSliderChanged(_ sender: UISlider) {
         let heightValue = String(round(sender.value * 100)/100.0)
